@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research interests</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript"
+		  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style1">
+						<a href="research.html#interests" class="logo"><img src="images/return.png" class="return"/></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html" class="button primary fit">Accueil</a></li>
+							<li><a href="research.html">Research</a></li>
+							<li><a href="enseignement.html">Enseignement</a></li>
+							<li><a href="ressources.html">Ressources</a></li>
+							<li><a href="vita.html">Vita</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style1">
+						<div class="inner">
+							<span class="image">
+								<img src="images/tableau.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Research interests</h1>
+							</header>
+							<div class="content" id="auteurs">
+								<p>Interactions of statistical physics with other fields</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>What do I like?</h2>
+									</header>
+									<p>
+										The interplay between <B>probability, geometry and symmetries</B> is my bread and butter. A great playground for this is <B>percolation</B> theory.
+									</p>
+									<p>
+										Imagine some sort of fluid propagating in a medium. You may model this situation by considering the medium to be boring and the fluid to be the protagonist. This opens the gates of the realm of Diffusion, which has plenty of incarnations including the Laplacian, Brownian motion, random walks and electric networks. But you can also be simplistic about the fluid and refined about the medium. In that case, you do percolation.
+									</p>
+									<p>
+										Consider a population of animals moving in a complicated way. Do they seem to make their own choices, rather independently of one another, or to be mainly driven by the environment, <I>e.g.</I> following currents or food supply? Diffusion deals very well with the first scenario while percolation-type techniques are well cut for the second one.
+									</p>
+									<p>
+										Percolation is easy to define. First, discretise your medium. Then, pick a parameter \(p\), which you think of as the proportion of blocks that will allow propagation to occur. Finally, keep each elementary block independently with probability \(p\), and erase it otherwise. We want to know if propagation can go from some portion of the medium to a faraway one. In other words, we are interested in the connected components of this random graph, the so-called clusters. This is a typical local-to-global question.
+									</p>
+									<p>
+										Typically, we take our discrete structure to be a graph, with vertices and edges. Erasing vertices at random defines site percolation while erasing edges at random yields the so-called bond percolation. For concreteness, let us pick one model, say bond percolation. There is a critical value \(p_c \in [0,1]\), depending on the graph, such that for every \(p< p_c\), all clusters are finite almost surely while for \(p> p_c\), there is almost surely at least one infinite cluster. This is a prototypical example of a <B>phase transition</B> in statistical physics.
+									</p>
+									<p>
+										In various contexts, both theoretical and applied, it is natural to assume our graph to be homogeneous (one can also say transitive). This means that, before performing percolation, your medium looks the same anywhere you sit. A good share of my research efforts is dedicated to understanding <B>percolation on homogeneous graphs</B>.
+									</p>
+									<p>
+										One may think that this geometric generality is too wide, that understanding Euclidean geometries of dimension 1, 2 and 3 suffices for all meaningful purposes. But there are good reasons to study general geometries. From a theoretical perspective, deep bridges with other fields such as geometric group theory appear only at this level of generality. As for applications, anytime you consider things that may interact, this yields a graph. Vertices encode the "things" while edges encode possible interactions. Considering social networks or genealogical trees produces real-world graphs that escape Euclidean geometries.
+									</p>
+									<p>
+										If you want to learn more about what I do, you can have a look at my PhD thesis <I><B><a href="docs/these.pdf">Percolation on groups and directed models</a></B></I>, defended in December 2014 under the supervision of Vincent Beffara. Other options include <a href="research.html#papers">having a look at the description of my papers</a>, <a href="#contact" class="scrolly next">writing me an e-mail</a> or watching my talk below (in French, for starting undergraduates), entitled <I>Random mazes and phase transition</I>.<br><br><br>
+									</p>
+									<center><iframe class="video" object-fit allowfullscreen src="https://www.youtube.com/embed/2ELdBlYvZso?si=fZWP_8KRa2sm0u6l&t=2m30s"></iframe></center>
+									<br><br>
+								</div>
+							</section>
+											<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form
+								  action="https://formspree.io/f/xzbnwzzr"
+								  method="POST"
+								>
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Nom</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">E-mail</label>
+											<input type="email" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Envoyer" class="primary" /></li>
+										<li><input type="reset" value="Effacer" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>E-mail</h3>
+										smartineau@lpsm.paris
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Adresse</h3>
+										<span>LPSM, Sorbonne Université<br />
+										4, Place Jussieu<br />
+										Case 158<br />
+										75252 Paris Cedex 05<br />
+										France</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+					</div>
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/subwindow.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
