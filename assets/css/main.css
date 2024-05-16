@@ -11,6 +11,11 @@ html {
   scroll-padding-top: 70px; /* height of sticky header */
 }
 
+.precisions
+{
+	font-size: 0.84em;
+}
+
 .coauteurs
 {
     text-align: right;
